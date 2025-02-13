@@ -5,18 +5,19 @@ require_relative "lib/primerevenue_common/version"
 Gem::Specification.new do |spec|
   spec.name = "primerevenue_common"
   spec.version = PrimerevenueCommon::VERSION
-  spec.authors = ["Rodrigo Ruas"]
+  spec.authors = ["Rodrigo Ruas", "Mark Reineck"]
   spec.email = ["rodrigoruas2@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = "Primerevenue Common"
+  spec.description = "Primerevenue Common code"
+  spec.homepage = "https://github.com/rodrigoruas/primerevenue_common"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
 
-  spec.metadata["homepage_uri"] = spec.homepage
+  spec.metadata['homepage_uri'] = "https://github.com/rodrigoruas/primerevenue_common"
+
   spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
